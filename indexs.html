@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        
+        #container{
+    width: 70%;
+    display: grid;
+    margin-top: 100px;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(5,1fr);
+    margin: auto;
+    background-color: black;
+    color: rgb(253, 254, 255);
+    gap: 20px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    /* border: 1px solid blue;
+    background-color: rgb(0, 153, 255); */
+}
+#container>div{
+    
+    display: flex;
+    background-color: rgb(187, 173, 173);
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+#container>div:hover{
+    cursor: pointer;
+    background-color: blueviolet;
+    font-weight: bold;
+    color: black;
+}
+#enter{
+    grid-area: 3/11/4/13;
+}
+#shift{
+    grid-area: 4/11/5/13;
+}
+#space{
+    grid-area: 5/5/6/9;
+}
+
+    </style>
+</head>
+<body>
+   <div id="container">
+    <div>~</div>
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+    <div>6</div>
+    <div>7</div>
+    <div>8</div>
+    <div>9</div>
+    <div>0</div>
+    <div>delete</div>
+    <div>tab</div>
+    <div>q</div>
+    <div>w</div>
+    <div>e</div>
+    <div>r</div>
+    <div>t</div>
+    <div>y</div>
+    <div>u</div>
+    <div>i</div>
+    <div>o</div>
+    <div>p</div>
+    <div>\</div>
+    <div>caps</div>
+    <div>a</div>
+    <div>s</div>
+    <div>d</div>
+    <div>f</div>
+    <div>g</div>
+    <div>h</div>
+    <div>j</div>
+    <div>k</div>
+    <div>l</div>
+    <div id="enter">enter</div>
+    <div>shift</div>
+    <div>z</div>
+    <div>x</div>
+    <div>c</div>
+    <div>v</div>
+    <div>b</div>
+    <div>n</div>
+    <div>m</div>
+    <div>,</div>
+    <div>.</div>
+    <div id="shift">shift</div>
+    <div>cns</div>
+    <div>fn</div>
+    <div>win</div>
+    <div>alt</div>
+    <div id="space">space</div>
+    <div>=</div>
+    <div>-</div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+   </div> 
+</body>
+</html>

@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        #container{
+            width: 80%;
+            margin: auto;
+            /* justify-content: center; */
+            /* border: 1px solid blue; */
+        }
+       p{
+            text-align: center;
+            margin: auto;
+            margin-bottom: 30px ;
+       }
+       #cont{
+            display: grid;
+             grid-template-columns: repeat(4,1fr);
+            grid-template-rows: 400px;
+            gap:20px;
+            width: 80%;
+            margin: auto;
+         }
+         #cont>div{
+             border: 0px solid rgb(64, 82, 180);
+             height: auto;
+             text-align: center;
+             
+             box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+            }
+            #cont>div>div{
+              display: flex;
+                   justify-content: space-between;
+               margin: 30px 0px 10px 0px;
+            }
+             h3+h6{
+                text-align: center;
+            margin-top:-5px
+            
+              }
+           #doctors>div>div>button+button{
+              background-color: rgb(75, 87, 197);
+             }
+            button{
+                 border-radius: 5px;
+                 border: none;
+          }
+        h1{
+            text-align: center;
+        }
+        
+        img{
+            width: 100%;
+            height: 150px;
+            /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+            /* margin-left: 35px; */
+            margin: auto;
+        }
+       
+        #cont{
+            display: flex;
+            padding: 30px;
+            margin: auto;
+        }
+        #cont>div{
+            /* border: 2px solid black; */
+            margin: auto;
+            padding-bottom: 30px;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+        }
+        #service{
+         display:grid;
+         grid-template-columns: repeat(3,1fr);
+          grid-template-rows:repeat(2,200px);
+          gap: 20px;
+           width: 70%;
+          margin: auto;
+            margin-top: 50px;
+  
+
+}
+      
+        #service>div{
+            /* border: 2px solid black; */
+            text-align: center;
+            height: auto;
+            
+        }
+        
+        h5{
+            text-align: center;
+        }
+        .icon{
+            width: 40%;
+            height: 40px;
+            border-radius: 50px;
+        }
+          @media screen and (min-width:450px) and (max-width:750px) {
+            #cont,#service{
+                display: grid;
+                grid-template-columns: repeat(2,1fr);
+                grid-template-rows: repeat(2 auto);
+                gap: 30px;
+            }
+                #header>p{      
+                width:60%
+        
+            }
+
+        }
+        @media screen and (max-width:430px){
+            #cont,#service{
+                display: grid;
+                grid-template-columns: repeat(1,1fr);
+                grid-template-rows: repeat(4 auto);
+                gap: 30px;
+            }
+                #header>p{      
+                 width:80%
+                
+            } 
+        }
+    
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div>
+            <h1> Our Specialist</h1>
+        </div>
+    
+        <div>
+            <p> Green above be cattle god saw day multiply under fill in the cattle fowl a all, living, tree <br>
+                word link available in the service for subdue fruit.
+            </p>
+        </div>
+        <div id="cont">
+        <div>
+            <img  src="https://media.istockphoto.com/id/1470505351/photo/portrait-of-a-smiling-doctor-holding-glasses-and-a-mobile-phone-at-the-office.webp?b=1&s=170667a&w=0&k=20&c=8CebFLF4PFnt9JYJznGhYoOQxcyHLVpTGVfkvEsZd2Q=" alt="">
+            <h3>ETHEL DAVIS</h3>
+            <h6>SR FACULTY DATA SCIENCE</h6>
+            <p>If you are looking at blank <br>cassettes on the web, you may be <br>very confused at the.</p>
+            <div>
+                <button>
+                    know more
+                </button>
+                <button>
+                    Book Now
+                </button>
+            </div>
+        </div>
+        <div>
+            <img src="https://t3.ftcdn.net/jpg/02/95/51/80/360_F_295518052_aO5d9CqRhPnjlNDTRDjKLZHNftqfsxzI.jpg" alt="">
+            <h3>
+                DAND MORIES
+            </h3>
+            <h6>SR FACULTY PLASTIC SURGERY</h6>
+            <p>If you are looking at blank <br>cassettes on the web, you may be <br>very confused at the.</p>
+            <div>
+            <button>
+                know more
+            </button>
+            <button>
+                Book Now
+            </button>
+        </div>
+        </div>
+        <div>
+            <img src="https://img.freepik.com/premium-photo/portrait-mature-male-doctor-wearing-white-coat-standing-hospital-corridor_562859-3453.jpg" alt="">
+            <h3>
+                ALIGN BOARD
+            </h3>
+            <h6>SR FACULTY PLASTIC SURGERY</h6>
+            <p>If you are looking at blank <br>cassettes on the web, you may be <br>very confused at the.</p>
+            <div>
+            <button >
+                know more
+            </button>
+            <button>
+                Book Now
+            </button>
+            </div>
+        </div>
+        <div>
+            <img src="https://t4.ftcdn.net/jpg/03/05/41/27/360_F_305412791_XRNiWaFCREjLLpSQfj0e736foBoYXXYv.jpg" alt="">
+            <h3>
+                ALIGN BOARD
+            </h3>
+            <h6>SR FACULTY PLASTIC SURGERY</h6>
+            <p>If you are looking at blank <br>cassettes on the web, you may be <br>very confused at the.</p>
+            <div>
+            <button >
+                know more
+            </button>
+            <button>
+                Book Now
+            </button>
+            
+        </div>
+        </div>
+    </div>
+    <div id="service">
+        
+        <div>
+          <img class="icon" src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2022-04-16/bottom_132437.jpeg" alt="">
+          <h5>Teeth Whitening</h5>
+          <p>In pretium neque conhue. Elit Diam  lactus.Prasent licinia vitae sit mattis mollis maximum.</p>
+        </div>
+        <div>
+          <img class="icon" src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2022-04-16/bottom_132437.jpeg" alt="">
+          <h5>Teeth Whitening</h5>
+          <p>In pretium neque conhue. Elit Diam  lactus.Prasent licinia vitae sit mattis mollis maximum.</p>
+        </div>
+        <div>
+          <img class="icon" src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2022-04-16/bottom_132437.jpeg" alt="">
+          <h5>Teeth Whitening</h5>
+          <p>In pretium neque conhue. Elit Diam  lactus.Prasent licinia vitae sit mattis mollis maximum.</p>
+        </div>
+        <div> <img class="icon" src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2022-04-16/bottom_132437.jpeg" alt="">
+          <h5>Teeth Whitening</h5>
+          <p>In pretium neque conhue. Elit Diam  lactus.Prasent licinia vitae sit mattis mollis maximum.</p></div>
+        <div> <img class="icon" src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2022-04-16/bottom_132437.jpeg" alt="">
+          <h5>Teeth Whitening</h5>
+          <p>In pretium neque conhue. Elit Diam  lactus.Prasent licinia vitae sit mattis mollis maximum.</p></div>
+        <div> <img class="icon" src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2022-04-16/bottom_132437.jpeg" alt="">
+          <h5>Teeth Whitening</h5>
+          <p>In pretium neque conhue. Elit Diam  lactus.Prasent licinia vitae sit mattis mollis maximum.</p></div>
+      </div>
+    </div>
+</body>
+</html>
